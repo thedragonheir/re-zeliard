@@ -1,4 +1,4 @@
-# Zeliard C++ Port
+# Zeliard Reverse Engineering
 
 Unofficial C++23 + SDL3 port/reimplementation of **Zeliard**.
 
