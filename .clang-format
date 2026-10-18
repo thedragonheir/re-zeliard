@@ -1,0 +1,91 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+Standard: Latest
+
+IndentWidth: 4
+ContinuationIndentWidth: 4
+ConstructorInitializerIndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+BreakBeforeBraces: Allman
+NamespaceIndentation: None
+CompactNamespaces: false
+
+IndentCaseLabels: false
+IndentCaseBlocks: false
+IndentAccessModifiers: false
+AccessModifierOffset: -4
+IndentWrappedFunctionNames: false
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: No
+
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+
+Cpp11BracedListStyle: true
+
+SpaceBeforeParens: ControlStatements
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeCpp11BracedList: false
+
+SpacesInAngles: Never
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignConsecutiveMacros: false
+AlignConsecutiveBitFields: false
+AlignEscapedNewlines: Left
+
+BreakStringLiterals: false
+ReflowComments: false
+FixNamespaceComments: false
+
+IncludeBlocks: Preserve
+SortIncludes: Never
+SortUsingDeclarations: Never
+
+IndentPPDirectives: None
+PPIndentWidth: 4
+
+MaxEmptyLinesToKeep: 1
+KeepEmptyLinesAtTheStartOfBlocks: false
+SeparateDefinitionBlocks: Leave
+
+PenaltyBreakAssignment: 100
+PenaltyBreakBeforeFirstCallParameter: 100
+PenaltyBreakComment: 1000
+PenaltyBreakString: 1000
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 1000
+...
