@@ -11,7 +11,7 @@ cmake_install.cmake
 Makefile
 compile_commands.json
 
-# Visual Studio / IDE files
+# Visual Studio and IDE files
 .vs/
 *.VC.db
 *.VC.opendb
@@ -20,7 +20,7 @@ compile_commands.json
 *.suo
 *.sln.docstates
 
-# Local Codex / agent state
+# Local agent state
 .agents/
 .codex/
 .qwen/
@@ -34,11 +34,17 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Misc local files
+# Local scripts and generated files
+RunWeb.bat
+.local/
 *.log
 *.tmp
 *.bak
+
+# External VGM tools
+tools/vgmtools/*.exe
+tools/vgmtools/*.dll
+
+# Windows system files
 Thumbs.db
 Desktop.ini
-RunWeb.bat
-.local/
